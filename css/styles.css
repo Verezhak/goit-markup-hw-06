@@ -657,8 +657,8 @@ a {
 @media screen and (min-width: 1158px) {
   .end-line {
     padding: 100px 0;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
