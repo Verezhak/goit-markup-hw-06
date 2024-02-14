@@ -639,7 +639,6 @@ a {
     column-gap: 24px;
   }
   .item-team {
-    max-width: 264px;
     width: calc((100% - 24px) / 2);
   }
 }
@@ -656,6 +655,12 @@ a {
 
   .team {
     padding: 120px 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .team-container {
+    width: 552px;
   }
 }
 
