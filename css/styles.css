@@ -628,7 +628,7 @@ a {
 
 @media screen and (min-width: 768px) {
   .team {
-    padding: 96px 108px;
+    padding: 96px 0;
   }
 
   .list-team {
@@ -876,13 +876,15 @@ a {
 }
 
 @media screen and (min-width: 768px) {
+  .end-line {
+    padding-left: 92px;
+  }
   .footer-page {
     align-items: baseline;
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 72px;
     column-gap: 24px;
-    margin-left: 108px;
     justify-content: start;
   }
 
@@ -898,8 +900,6 @@ a {
 @media screen and (min-width: 1158px) {
   .end-line {
     padding: 100px 0;
-    margin-left: 0;
-    margin-right: 0;
   }
 
   .footer-page {
