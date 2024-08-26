@@ -3,22 +3,26 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+
 ul {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
   list-style-type: none;
 }
+
 h1,
 h2,
 h3 {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 p {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 img {
   display: block;
   max-width: 100%;
@@ -40,6 +44,7 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .container {
   max-width: 320px;
   margin: 0 auto;
@@ -191,7 +196,7 @@ a {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-memu {
+.btn-menu {
   margin-left: auto;
   border: none;
   background-color: transparent;
@@ -308,6 +313,7 @@ a {
     background-color: #fff;
   }
 }
+
 .menu-mobile-backdrop.is-open {
   opacity: 1;
   visibility: visible;
@@ -318,10 +324,8 @@ a {
 .page-hero {
   background-color: #2e2f42;
   padding: 72px 0;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)),
     url(../images/mobile-hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -329,14 +333,13 @@ a {
   max-width: 767px;
   margin: 0 auto;
 }
+
 @media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
   .page-hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
       url(../images/mobile-hero@2x.jpg);
   }
 }
@@ -384,20 +387,17 @@ a {
   .page-hero {
     padding: 112px 0;
     max-width: 1157px;
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
       url(../images/tablet-hero.jpg);
   }
+
   @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
     .page-hero {
-      background-image: linear-gradient(
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)
-        ),
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)),
         url(../images/tablet-hero@2x.jpg);
     }
   }
@@ -415,20 +415,17 @@ a {
   .page-hero {
     padding: 188px 0;
     max-width: 1440px;
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
       url(../images/people-office.jpg);
   }
+
   @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
     .page-hero {
-      background-image: linear-gradient(
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)
-        ),
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)),
         url(../images/people-office-2x.jpg);
     }
   }
@@ -480,6 +477,7 @@ a {
   .subtitle {
     text-align: start;
   }
+
   .list-offers {
     flex-direction: row;
     flex-wrap: wrap;
@@ -534,6 +532,7 @@ a {
     display: flex;
   }
 }
+
 /* ===========================team========================================== */
 
 .team {
@@ -638,6 +637,7 @@ a {
     row-gap: 64px;
     column-gap: 24px;
   }
+
   .item-team {
     width: calc((100% - 24px) / 2);
   }
@@ -878,6 +878,7 @@ a {
   .end-line {
     padding-left: 92px;
   }
+
   .footer-page {
     align-items: baseline;
     flex-direction: row;
@@ -1120,7 +1121,7 @@ a {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-input:focus + .icon-input {
+.form-input:focus+.icon-input {
   fill: #4d5ae5;
 }
 
@@ -1175,7 +1176,7 @@ a {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hidden-checkbox:checked + .checkbox .custom-checkbox {
+.hidden-checkbox:checked+.checkbox .custom-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
